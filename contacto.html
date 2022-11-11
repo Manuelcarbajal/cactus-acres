@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <script src="https://kit.fontawesome.com/426a8cb797.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/contacto.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="encabezado">
+            <div class="flecha">
+                <a href="index.html"><i class="fa-solid fa-arrow-left-long"></i></a>
+             </div>
+            <div class="titulo">
+               <h1>Contacto</h1>
+               
+            </div>
+        </div>
+        <div class="contenido">
+            <div class="info">
+                <div class="col">
+                    <a href="./gps.html">
+                        <i class="fa-solid fa-map-location-dot icono" class="icono"></i>
+                        <p>A.v #14 de mayo</p></a>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-phone icono" class="icono"></i>
+                        <p>636000000</p>
+                </div>
+
+                <div class="col">
+                    <i class="fa-solid fa-envelope icono" class="icono"></i>
+                        <p>Correo@gmail.com</p>
+                </div>
+
+                <div class="redes-s">
+                    <a href="https://api.whatsapp.com/send?phone=+526361017966 &text=Quiero información Por favor.." target="_blank"><i class="fa-brands fa-whatsapp whats" title="Enviar mensaje de WhatsApp"></i></a>
+                    <a href="http://m.me/rafael.pinongonzalez" target ="_blank"><i class="fa-brands fa-facebook-messenger messenger"  title="Enviar mensaje por Messenger"></i></a>
+                    
+                </div>
+            </div>
+
+            <form action="https://formsubmit.co/d56b14a0d0fe610ae552cbfb3a7b850f" method="POST" class="formulario" >
+                <input type="text" name="nombre" placeholder="Nombre" id="nombre">
+                <input type="text" name="correo" placeholder="Correo Electrico" id="correo">
+                <input type="text" name="asunto" placeholder="Asunto" id="asunto">
+                <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+                <button type="button" onclick="validarFormulario()"><i class="fa-solid fa-paper-plane"></i></button>
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/contacto.html">
+                <input type="hidden" name="_captcha" value="false"> 
+
+            </form>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
