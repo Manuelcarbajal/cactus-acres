@@ -1,0 +1,28 @@
+.slideshow{
+   position:relative;
+
+}
+
+.btn-slideshow-right,.btn-slideshow-left{
+    position: absolute;
+    display:block;
+    width:30px;
+    height: 30px;
+    border:none;
+    top:calc(50% -30px);
+    cursor:pointer;
+    line-height: 30px;
+    text-align: center;
+    background:none;
+    color:black;
+
+}
+
+.btn-slideshow-right{
+    left: -30px;
+}
+
+.btn-slideshow-left{
+    left: -30px;
+
+}
